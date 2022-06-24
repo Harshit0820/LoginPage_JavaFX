@@ -1,0 +1,9 @@
+.vbox_background_center{
+    -fx-background-image:url("bgcenter.jpg")
+}
+.vbox_background_right{
+    -fx-background-image:url("bgright.jpg")
+}
+.cursor_hand{
+    -fx-cursor:hand
+}

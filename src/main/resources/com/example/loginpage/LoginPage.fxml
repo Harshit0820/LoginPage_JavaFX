@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="780.0" style="-fx-background-color: #f8f2e6;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.LoginController">
+   <right>
+      <VBox minWidth="332.0" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_background_right" stylesheets="@LoginPage.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="141.0" prefWidth="332.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="(Company Name)" textAlignment="CENTER" wrappingWidth="277.9931640625">
+                     <font>
+                        <Font name="Arial Bold" size="29.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="80.0" />
+                     </VBox.margin>
+                  </Text>
+               </children></VBox>
+            <HBox alignment="CENTER" prefHeight="62.0" prefWidth="332.0">
+               <children>
+                  <TextField alignment="CENTER" prefHeight="38.0" prefWidth="267.0" promptText="Username" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="40.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="123.0" prefHeight="62.0" prefWidth="332.0">
+               <children>
+                  <PasswordField alignment="CENTER" prefHeight="38.0" prefWidth="267.0" promptText="Password" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="228.0" prefHeight="62.0" prefWidth="332.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="267.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ed6637;" styleClass="cursor_hand" stylesheets="@LoginPage.css" text="Login" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" styleClass="cursor_hand" stylesheets="@LoginPage.css" text="Forgot Password" textAlignment="CENTER" textFill="#5cc5ff">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="150.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
+   </right>
+   <center>
+      <VBox minWidth="449.0" prefHeight="460.0" prefWidth="353.0" styleClass="vbox_background_center" stylesheets="@LoginPage.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@button.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefWidth="67.0" styleClass="cursor_hand" stylesheets="@LoginPage.css" text="MENU">
+                     <font>
+                        <Font name="Ebrima Bold" size="21.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <HBox prefHeight="70.0" prefWidth="309.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="109.0" style="-fx-background-radius: 50; -fx-background-color: #e3be9b;" styleClass="cursor_hand" stylesheets="@LoginPage.css" text="SIGN UP">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="90.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="109.0" style="-fx-background-radius: 50; -fx-background-color: #ed6637;" styleClass="cursor_hand" stylesheets="@LoginPage.css" text="LOGIN" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </HBox>
+            <VBox prefHeight="361.0" prefWidth="450.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back" textAlignment="CENTER" wrappingWidth="267.9931640625">
+                           <font>
+                              <Font name="Gabriola" size="60.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="120.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text fill="#666666" strokeType="OUTSIDE" strokeWidth="0.0" text="(Company Name)" textAlignment="CENTER" wrappingWidth="352.9931640625">
+                           <font>
+                              <Font name="Arial Bold" size="29.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="50.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children></VBox>
+   </center>
+</BorderPane>
